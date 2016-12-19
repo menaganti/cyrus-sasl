@@ -197,7 +197,7 @@ int main(int argc, char **argv)
   if(argc < 2){
     fn = "bits.h";
     hb = "__BITS_H__";
-    f = stdout;
+    f = 1;
   } else {
     char *p;
     fn = argv[1];
